@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DomoDemo</title>
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+
+    <script type="text/javascript" src="static/main.js"></script>
+</head>
+
+<body>
+<div data-role="page">
+    <div data-role="header" data-theme="b" data-content-theme="d">
+        <h1>DomoDemo</h1>
+    </div>        
+    <div data-role="content">
+        <p>Remote control for Lights and Cameras</p>
+
+        <div data-role="collapsible-set" data-theme="b" data-content-theme="d">
+            <div data-role="collapsible">
+                <h3>Lights</h3>
+                <p>House Lights</p>
+                <ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="d">
+                    
+                    <li>
+                        <label for="flip-1">Livingroom</label>
+                        <select name="flip-1" id="flip-1" data-role="slider">
+                        <option value="0">Off</option>
+                        <option value="1">On</option>
+                    </select>
+                    </li>
+                    <li>
+                        <label for="flip-2">Kitchen</label>
+                        <select name="flip-2" id="flip-2" data-role="slider">
+                        <option value="0">Off</option>
+                        <option value="1">On</option>
+                    </select>
+                    </li>
+                    <li>
+                        <label for="flip-1">Betroom</label>
+                        <select name="flip-3" id="flip-3" data-role="slider">
+                        <option value="0">Off</option>
+                        <option value="1">On</option>
+                    </select>
+                    </li>
+                </ul>
+            </div>
+            <div data-role="collapsible">
+                <h3>Cameras</h3>
+                <p>House Cameras</p>
+                <ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="d">
+                    <li><a href="index.html">Camera 1</a></li>
+                    <li><a href="index.html">Camera 2</a></li>
+                    <li><a href="index.html">Camera 3</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </div>
+
+    <div data-role="footer" data-theme="b" data-content-theme="d">
+        <h4>Footer</h4>
+    </div>
+</div>
+</body>
+
+</html>
